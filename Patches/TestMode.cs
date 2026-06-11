@@ -10,7 +10,7 @@ namespace NecrobinderRework.Patches;
 [HarmonyPatch(typeof(MegaCrit.Sts2.Core.Models.Characters.Necrobinder), "get_StartingDeck")]
 public static class TestModePatch
 {
-    public static bool Enabled = true;
+    public static bool Enabled = false;
 
     public static void Postfix(ref IEnumerable<CardModel> __result)
     {
