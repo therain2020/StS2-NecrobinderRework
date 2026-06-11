@@ -4,7 +4,6 @@ using HarmonyLib;
 using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Cards;
-using NecrobinderRework.Cards;
 
 namespace NecrobinderRework.Patches;
 
@@ -20,21 +19,23 @@ public static class TestModePatch
         {
             var deck = new List<CardModel>
             {
-                // v0.3.0 替换卡 (CustomCardModel，已在卡池中)
-                ModelDb.Card<BodyguardRework>(),
-                ModelDb.Card<NegativePulseRework>(),
+                // 5 张交叉卡 (Harmony Postfix 增强)
+                ModelDb.Card<Bodyguard>(),
+                ModelDb.Card<NegativePulse>(),
                 ModelDb.Card<CaptureSpirit>(),
-                ModelDb.Card<TimesUpRework>(),
-                ModelDb.Card<SoulStormRework>(),
-                // 保留的原卡 (未替换)
+                ModelDb.Card<TimesUp>(),
+                ModelDb.Card<SoulStorm>(),
+                // Osty 卡
                 ModelDb.Card<Unleash>(),
                 ModelDb.Card<Fetch>(), ModelDb.Card<Flatten>(), ModelDb.Card<SicEm>(),
                 ModelDb.Card<Spur>(), ModelDb.Card<Squeeze>(), ModelDb.Card<Calcify>(),
                 ModelDb.Card<HighFive>(),
+                // Doom 卡
                 ModelDb.Card<DeathsDoor>(), ModelDb.Card<Countdown>(),
                 ModelDb.Card<Haunt>(),
                 ModelDb.Card<Defile>(), ModelDb.Card<DrainPower>(),
                 ModelDb.Card<Reap>(),
+                // 基础
                 ModelDb.Card<DefendNecrobinder>(), ModelDb.Card<Soul>(),
             };
             __result = deck;
