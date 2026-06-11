@@ -5,7 +5,13 @@ using MegaCrit.Sts2.Core.Models.Cards;
 namespace NecrobinderRework.Patches;
 
 /// Phase 3.2: Doom 格挡提升
-/// NegativePulse 已迁移至 CustomCardModel (NegativePulseRework)，移除对应 patch
+
+[HarmonyPatch(typeof(NegativePulse), "get_CanonicalVars")]
+public static class NegativePulsePatch
+{
+    public static void Postfix(ref IEnumerable<DynamicVar> __result) =>
+        CardVarHelper.SetBase(__result, "Block", 7);
+}
 
 [HarmonyPatch(typeof(DeathsDoor), "get_CanonicalVars")]
 public static class DeathsDoorPatch

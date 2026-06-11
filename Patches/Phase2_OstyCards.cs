@@ -7,7 +7,13 @@ using MegaCrit.Sts2.Core.Models.Cards;
 namespace NecrobinderRework.Patches;
 
 /// Phase 2: Osty 卡强化 — Patch get_CanonicalVars（每张卡都重写了，不会叠加）
-/// Bodyguard 已迁移至 CustomCardModel (BodyguardRework)，移除对应 patch
+
+[HarmonyPatch(typeof(Bodyguard), "get_CanonicalVars")]
+public static class BodyguardPatch
+{
+    public static void Postfix(ref IEnumerable<DynamicVar> __result) =>
+        CardVarHelper.SetBase(__result, "Summon", 7);
+}
 
 [HarmonyPatch(typeof(Unleash), "get_CanonicalVars")]
 public static class UnleashPatch
