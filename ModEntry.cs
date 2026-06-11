@@ -3,6 +3,7 @@ using System.Reflection;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Modding;
+using NecrobinderRework.Patches;
 
 namespace NecrobinderRework;
 
@@ -23,6 +24,7 @@ public static class ModEntry
                 try { harmony.CreateClassProcessor(type).Patch(); ok++; }
                 catch (Exception ex) { fail++; Log.Error($"[NR] FAIL: {type.Name}: {ex.InnerException?.Message ?? ex.Message}"); }
             }
+            DescriptionPatch.Initialize();
             Log.Debug($"[NR] v0.4.0 — {ok} ok, {fail} fail");
         }
         catch (Exception ex) { Log.Error($"[NR] FATAL: {ex}"); }
