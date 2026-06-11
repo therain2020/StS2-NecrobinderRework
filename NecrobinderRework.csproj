@@ -16,7 +16,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Alchyr.Sts2.BaseLib" Version="3.1.7" />
+    <PackageReference Include="Alchyr.Sts2.BaseLib" Version="3.2.1" />
     <Reference Include="sts2">
       <HintPath>$(Sts2DataDir)\sts2.dll</HintPath>
       <Private>false</Private>
