@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "NecrobinderRework/1.0.0": {
+        "dependencies": {
+          "Alchyr.Sts2.BaseLib": "3.1.7"
+        },
+        "runtime": {
+          "NecrobinderRework.dll": {}
+        }
+      },
+      "Alchyr.Sts2.BaseLib/3.1.7": {
+        "runtime": {
+          "lib/net9.0/BaseLib.dll": {
+            "assemblyVersion": "3.1.7.0",
+            "fileVersion": "3.1.7.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NecrobinderRework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Alchyr.Sts2.BaseLib/3.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MaL/37tZtSN3i/rSW01bAKlxstpWT+GhFLTFddeKnSUnGQN+etMarO8DiRwD9791bbQc+HSTEafKmLc1w6Mmrg==",
+      "path": "alchyr.sts2.baselib/3.1.7",
+      "hashPath": "alchyr.sts2.baselib.3.1.7.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7RYxEQQhLYw=",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\StS2-NecrobinderRework\\NecrobinderRework.csproj",
+  "expectedPackageFiles": [
+    "D:\\NuGetPackages\\alchyr.sts2.baselib\\3.1.7\\alchyr.sts2.baselib.3.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}

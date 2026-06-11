@@ -1,0 +1,44 @@
+﻿# Necrobinder Rework v0.3.0 — 安装指南
+
+## 第一步：安装 BaseLib（必需依赖）
+
+1. 下载 BaseLib：https://github.com/Alchyr/BaseLib-StS2/releases/latest
+2. 解压后把 BaseLib.dll、BaseLib.json、BaseLib.pck 放入：
+   Steam\steamapps\common\Slay the Spire 2\mods\BaseLib\
+3. 如果没有 mods 和 BaseLib 文件夹，手动创建
+
+## 第二步：安装 Necrobinder Rework
+
+1. 把压缩包里的 NecrobinderRework 文件夹整个放入：
+   Steam\steamapps\common\Slay the Spire 2\mods\
+2. 最终结构应该是：
+   mods\
+   ├── BaseLib\
+   │   ├── BaseLib.dll
+   │   ├── BaseLib.json
+   │   └── BaseLib.pck
+   └── NecrobinderRework\
+       ├── NecrobinderRework.dll
+       ├── NecrobinderRework.pck
+       └── mod_manifest.json
+
+## 第三步：启动游戏
+
+1. 启动 Slay the Spire 2
+2. 主菜单左下角应显示 "RUNNING MODDED"（表示模组已加载）
+3. 选择 Necrobinder 开始新游戏
+4. 测试模式已启用——起手牌组会包含所有修改过的卡牌
+
+## 改动内容
+
+- 护卫（Bodyguard）：召唤 7 + 抽 1 张灵魂
+- 负能量脉冲（Negative Pulse）：7 格挡 + 7 灾厄全体 + 召唤 1
+- 时间到（Time's Up）：灾厄伤害 + 消耗；升级后追加召唤
+- 灵魂风暴（Soul Storm）：伤害随灵魂数动态增长 + 施加灾厄
+- 捕获灵魂（Capture Spirit）：原版效果 + 召唤 2
+
+## 如果遇到问题
+
+- 确认 BaseLib 已安装且版本为 v3.1.7 或更新
+- 确认游戏版本为 v0.103.3
+- 确认文件夹路径拼写正确（区分大小写）

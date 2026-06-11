@@ -1,0 +1,13 @@
+D:\GitHub\StS2-NecrobinderRework\bin\Debug\net9.0\NecrobinderRework.deps.json
+D:\GitHub\StS2-NecrobinderRework\bin\Debug\net9.0\NecrobinderRework.dll
+D:\GitHub\StS2-NecrobinderRework\bin\Debug\net9.0\NecrobinderRework.pdb
+D:\GitHub\StS2-NecrobinderRework\obj\Debug\net9.0\NecrobinderRework.csproj.AssemblyReference.cache
+D:\GitHub\StS2-NecrobinderRework\obj\Debug\net9.0\NecrobinderRework.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\StS2-NecrobinderRework\obj\Debug\net9.0\NecrobinderRework.AssemblyInfoInputs.cache
+D:\GitHub\StS2-NecrobinderRework\obj\Debug\net9.0\NecrobinderRework.AssemblyInfo.cs
+D:\GitHub\StS2-NecrobinderRework\obj\Debug\net9.0\NecrobinderRework.csproj.CoreCompileInputs.cache
+D:\GitHub\StS2-NecrobinderRework\obj\Debug\net9.0\NecrobinderRework.sourcelink.json
+D:\GitHub\StS2-NecrobinderRework\obj\Debug\net9.0\NecrobinderRework.dll
+D:\GitHub\StS2-NecrobinderRework\obj\Debug\net9.0\refint\NecrobinderRework.dll
+D:\GitHub\StS2-NecrobinderRework\obj\Debug\net9.0\NecrobinderRework.pdb
+D:\GitHub\StS2-NecrobinderRework\obj\Debug\net9.0\ref\NecrobinderRework.dll
