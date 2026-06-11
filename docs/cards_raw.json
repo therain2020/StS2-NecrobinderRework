@@ -1,0 +1,1740 @@
+﻿[
+    {
+        "id":  "AFTERLIFE",
+        "name":  "Afterlife",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Common",
+        "damage":  null,
+        "block":  null,
+        "description":  "[gold]Summon[/gold] 6.",
+        "vars":  {
+                     "Summon":  6
+                 },
+        "upgrade":  {
+                        "summon":  "+3"
+                    },
+        "keywords":  [
+                         "Exhaust"
+                     ],
+        "target":  "Self"
+    },
+    {
+        "id":  "BANSHEES_CRY",
+        "name":  "Banshee\u0027s Cry",
+        "cost":  6,
+        "type":  "Attack",
+        "rarity":  "Rare",
+        "damage":  33,
+        "block":  null,
+        "description":  "Deal 33 damage to ALL enemies.\nCosts [energy:2] less for each [gold]Ethereal[/gold] card played this combat.",
+        "vars":  {
+                     "Damage":  33,
+                     "Energy":  2
+                 },
+        "upgrade":  {
+                        "damage":  "+6"
+                    },
+        "keywords":  null,
+        "target":  "AllEnemies"
+    },
+    {
+        "id":  "BLIGHT_STRIKE",
+        "name":  "Blight Strike",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Common",
+        "damage":  8,
+        "block":  null,
+        "description":  "Deal 8 damage.\nApply [gold]Doom[/gold] equal to damage dealt.",
+        "vars":  {
+                     "Damage":  8
+                 },
+        "upgrade":  {
+                        "damage":  "+2"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "BODYGUARD",
+        "name":  "Bodyguard",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Basic",
+        "damage":  null,
+        "block":  null,
+        "description":  "[gold]Summon[/gold] 5.",
+        "vars":  {
+                     "Summon":  5
+                 },
+        "upgrade":  {
+                        "summon":  "+2"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "BONE_SHARDS",
+        "name":  "Bone Shards",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Uncommon",
+        "damage":  9,
+        "block":  9,
+        "description":  "If [gold]Osty[/gold] is alive, he deals 9 damage to ALL enemies and you gain 9 [gold]Block[/gold].\n[gold]Osty[/gold] dies.",
+        "vars":  {
+                     "OstyDamage":  9,
+                     "Block":  9,
+                     "Damage":  9
+                 },
+        "upgrade":  {
+                        "damage":  "+3",
+                        "block":  "+3",
+                        "ostydamage":  "+3"
+                    },
+        "keywords":  null,
+        "target":  "AllEnemies"
+    },
+    {
+        "id":  "BORROWED_TIME",
+        "name":  "Borrowed Time",
+        "cost":  0,
+        "type":  "Skill",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "Apply 3 [gold]Doom[/gold] to yourself.\nGain [energy:1].",
+        "vars":  {
+                     "Energy":  1,
+                     "DoomPower":  3,
+                     "Doom":  3
+                 },
+        "upgrade":  {
+                        "energy":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "BURY",
+        "name":  "Bury",
+        "cost":  4,
+        "type":  "Attack",
+        "rarity":  "Uncommon",
+        "damage":  52,
+        "block":  null,
+        "description":  "Deal 52 damage.",
+        "vars":  {
+                     "Damage":  52
+                 },
+        "upgrade":  {
+                        "damage":  "+11"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "CALCIFY",
+        "name":  "Calcify",
+        "cost":  1,
+        "type":  "Power",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "[gold]Osty\u0027s[/gold] attacks deal 4 additional damage.",
+        "vars":  {
+                     "CalcifyPower":  4,
+                     "Calcify":  4
+                 },
+        "upgrade":  {
+                        "calcifypower":  "+2"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "CALL_OF_THE_VOID",
+        "name":  "Call of the Void",
+        "cost":  1,
+        "type":  "Power",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "At the start of your turn, add 1 random card into your [gold]Hand[/gold]. It gains [gold]Ethereal[/gold].",
+        "vars":  {
+                     "Cards":  1
+                 },
+        "upgrade":  {
+                        "add_innate":  true
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "CAPTURE_SPIRIT",
+        "name":  "Capture Spirit",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Uncommon",
+        "damage":  3,
+        "block":  null,
+        "description":  "Enemy loses 3 HP.\nAdd 3 [gold]Souls[/gold] into your [gold]Draw Pile[/gold].",
+        "vars":  {
+                     "Damage":  3,
+                     "Cards":  3
+                 },
+        "upgrade":  {
+                        "damage":  "+1",
+                        "cards":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "CLEANSE",
+        "name":  "Cleanse",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "[gold]Summon[/gold] 3.\n[gold]Exhaust[/gold] 1 card from your [gold]Draw Pile[/gold].",
+        "vars":  {
+                     "Summon":  3
+                 },
+        "upgrade":  {
+                        "summon":  "+2"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "COUNTDOWN",
+        "name":  "Countdown",
+        "cost":  1,
+        "type":  "Power",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "At the start of your turn, apply 6 [gold]Doom[/gold] to a random enemy.",
+        "vars":  {
+                     "CountdownPower":  6,
+                     "Countdown":  6
+                 },
+        "upgrade":  {
+                        "countdownpower":  "+3"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "DANSE_MACABRE",
+        "name":  "Danse Macabre",
+        "cost":  1,
+        "type":  "Power",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "Whenever you play a card that costs [energy:2] or more, gain 3 [gold]Block[/gold].",
+        "vars":  {
+                     "Energy":  2,
+                     "DanseMacabrePower":  3,
+                     "DanseMacabre":  3
+                 },
+        "upgrade":  {
+                        "dansemacabrepower":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "DEATH_MARCH",
+        "name":  "Death March",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "Deal 11 damage.\nDeals 3 additional damage for each card drawn during your turn.",
+        "vars":  {
+                     "CalculationBase":  8,
+                     "ExtraDamage":  3,
+                     "CalculatedDamage":  11
+                 },
+        "upgrade":  {
+                        "damage":  "+1",
+                        "calculationbase":  "+1",
+                        "extradamage":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "DEATHBRINGER",
+        "name":  "Deathbringer",
+        "cost":  2,
+        "type":  "Skill",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "Apply 21 [gold]Doom[/gold] and 1 [gold]Weak[/gold] to ALL enemies.",
+        "vars":  {
+                     "DoomPower":  21,
+                     "Doom":  21,
+                     "WeakPower":  1,
+                     "Weak":  1
+                 },
+        "upgrade":  {
+                        "doom":  "+5"
+                    },
+        "keywords":  null,
+        "target":  "AllEnemies"
+    },
+    {
+        "id":  "DEATHS_DOOR",
+        "name":  "Death\u0027s Door",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  6,
+        "description":  "Gain 6 [gold]Block[/gold].\nIf you applied [gold]Doom[/gold] this turn, gain [gold]Block[/gold] 2 additional times.",
+        "vars":  {
+                     "Block":  6,
+                     "Repeat":  2
+                 },
+        "upgrade":  {
+                        "block":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "DEBILITATE",
+        "name":  "Debilitate",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Uncommon",
+        "damage":  7,
+        "block":  null,
+        "description":  "Deal 7 damage.\n[gold]Vulnerable[/gold] and [gold]Weak[/gold] are twice as effective against the enemy for the next 3 turns.",
+        "vars":  {
+                     "Damage":  7,
+                     "DebilitatePower":  3,
+                     "Debilitate":  3
+                 },
+        "upgrade":  {
+                        "damage":  "+2",
+                        "debilitatepower":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "DEFEND_NECROBINDER",
+        "name":  "Defend",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Basic",
+        "damage":  null,
+        "block":  5,
+        "description":  "Gain 5 [gold]Block[/gold].",
+        "vars":  {
+                     "Block":  5
+                 },
+        "upgrade":  {
+                        "block":  "+3"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "DEFILE",
+        "name":  "Defile",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Common",
+        "damage":  13,
+        "block":  null,
+        "description":  "Deal 13 damage.",
+        "vars":  {
+                     "Damage":  13
+                 },
+        "upgrade":  {
+                        "damage":  "+4"
+                    },
+        "keywords":  [
+                         "Ethereal"
+                     ],
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "DEFY",
+        "name":  "Defy",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Common",
+        "damage":  null,
+        "block":  6,
+        "description":  "Gain 6 [gold]Block[/gold].\nApply 1 [gold]Weak[/gold].",
+        "vars":  {
+                     "Block":  6,
+                     "WeakPower":  1,
+                     "Weak":  1
+                 },
+        "upgrade":  {
+                        "block":  "+1",
+                        "weak":  "+1"
+                    },
+        "keywords":  [
+                         "Ethereal"
+                     ],
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "DELAY",
+        "name":  "Delay",
+        "cost":  2,
+        "type":  "Skill",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  11,
+        "description":  "Gain 11 [gold]Block[/gold].\nNext turn,\ngain [energy:1].",
+        "vars":  {
+                     "Block":  11,
+                     "Energy":  1
+                 },
+        "upgrade":  {
+                        "block":  "+2",
+                        "energy":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "DEMESNE",
+        "name":  "Demesne",
+        "cost":  3,
+        "type":  "Power",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "At the start of your turn, gain [energy:1] and draw 1 additional card.",
+        "vars":  {
+                     "Energy":  1,
+                     "Cards":  1
+                 },
+        "upgrade":  {
+                        "cost":  2
+                    },
+        "keywords":  [
+                         "Ethereal"
+                     ],
+        "target":  "Self"
+    },
+    {
+        "id":  "DEVOUR_LIFE",
+        "name":  "Devour Life",
+        "cost":  1,
+        "type":  "Power",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "Whenever you play a [gold]Soul[/gold], [gold]Summon[/gold] 1.",
+        "vars":  {
+                     "DevourLifePower":  1,
+                     "DevourLife":  1
+                 },
+        "upgrade":  {
+                        "devourlifepower":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "DIRGE",
+        "name":  "Dirge",
+        "cost":  0,
+        "type":  "Skill",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "[gold]Summon[/gold] 3 X times.\nAdd X [gold]Souls[/gold] into your [gold]Draw Pile[/gold].",
+        "vars":  {
+                     "Summon":  3
+                 },
+        "upgrade":  {
+                        "summon":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "DRAIN_POWER",
+        "name":  "Drain Power",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Common",
+        "damage":  10,
+        "block":  null,
+        "description":  "Deal 10 damage.\n[gold]Upgrade[/gold] 2 random cards in your [gold]Discard Pile[/gold].",
+        "vars":  {
+                     "Damage":  10,
+                     "Cards":  2
+                 },
+        "upgrade":  {
+                        "damage":  "+2",
+                        "cards":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "DREDGE",
+        "name":  "Dredge",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "Put 3 cards from your [gold]Discard Pile[/gold] into your [gold]Hand[/gold].",
+        "vars":  {
+                     "Cards":  3
+                 },
+        "upgrade":  {
+                        "add_retain":  true
+                    },
+        "keywords":  [
+                         "Exhaust"
+                     ],
+        "target":  "Self"
+    },
+    {
+        "id":  "EIDOLON",
+        "name":  "Eidolon",
+        "cost":  2,
+        "type":  "Skill",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "[gold]Exhaust[/gold] your [gold]Hand[/gold].\nIf 9 cards were [gold]Exhausted[/gold] this way, gain 1 [gold]Intangible[/gold].",
+        "vars":  {
+                     "intangibleThreshold":  9
+                 },
+        "upgrade":  {
+                        "cost":  1
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "END_OF_DAYS",
+        "name":  "End of Days",
+        "cost":  3,
+        "type":  "Skill",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "Apply 29 [gold]Doom[/gold] to ALL enemies.\nKill enemies with at least as much [gold]Doom[/gold] as HP.",
+        "vars":  {
+                     "DoomPower":  29,
+                     "Doom":  29
+                 },
+        "upgrade":  {
+                        "doom":  "+8"
+                    },
+        "keywords":  null,
+        "target":  "AllEnemies"
+    },
+    {
+        "id":  "ENFEEBLING_TOUCH",
+        "name":  "Enfeebling Touch",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "Enemy loses 8 [gold]Strength[/gold] this turn.",
+        "vars":  {
+                     "StrengthLoss":  8
+                 },
+        "upgrade":  {
+                        "strengthloss":  "+3"
+                    },
+        "keywords":  [
+                         "Ethereal"
+                     ],
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "ERADICATE",
+        "name":  "Eradicate",
+        "cost":  0,
+        "type":  "Attack",
+        "rarity":  "Rare",
+        "damage":  11,
+        "block":  null,
+        "description":  "Deal 11 damage X times.",
+        "vars":  {
+                     "Damage":  11
+                 },
+        "upgrade":  {
+                        "damage":  "+3"
+                    },
+        "keywords":  [
+                         "Retain"
+                     ],
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "FEAR",
+        "name":  "Fear",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Common",
+        "damage":  7,
+        "block":  null,
+        "description":  "Deal 7 damage.\nApply 1 [gold]Vulnerable[/gold].",
+        "vars":  {
+                     "Damage":  7,
+                     "VulnerablePower":  1,
+                     "Vulnerable":  1
+                 },
+        "upgrade":  {
+                        "damage":  "+1",
+                        "vulnerable":  "+1"
+                    },
+        "keywords":  [
+                         "Ethereal"
+                     ],
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "FETCH",
+        "name":  "Fetch",
+        "cost":  0,
+        "type":  "Attack",
+        "rarity":  "Uncommon",
+        "damage":  3,
+        "block":  null,
+        "description":  "[gold]Osty[/gold] deals 3 damage.\nIf this is the first time this card has been played this turn, draw 1 card.",
+        "vars":  {
+                     "OstyDamage":  3,
+                     "Cards":  1,
+                     "Damage":  3
+                 },
+        "upgrade":  {
+                        "damage":  "+3",
+                        "ostydamage":  "+3"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "FLATTEN",
+        "name":  "Flatten",
+        "cost":  2,
+        "type":  "Attack",
+        "rarity":  "Common",
+        "damage":  12,
+        "block":  null,
+        "description":  "[gold]Osty[/gold] deals 12 damage.\nThis card costs 0 [energy:1] if [gold]Osty[/gold] has attacked this turn.",
+        "vars":  {
+                     "OstyDamage":  12,
+                     "Damage":  12
+                 },
+        "upgrade":  {
+                        "damage":  "+4",
+                        "ostydamage":  "+4"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "FORBIDDEN_GRIMOIRE",
+        "name":  "Forbidden Grimoire",
+        "cost":  2,
+        "type":  "Power",
+        "rarity":  "Ancient",
+        "damage":  null,
+        "block":  null,
+        "description":  "At the end of combat, you may remove a card from your [gold]Deck[/gold].",
+        "vars":  null,
+        "upgrade":  {
+                        "cost":  1
+                    },
+        "keywords":  [
+                         "Eternal"
+                     ],
+        "target":  "Self"
+    },
+    {
+        "id":  "FRIENDSHIP",
+        "name":  "Friendship",
+        "cost":  1,
+        "type":  "Power",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "Lose 2 [gold]Strength[/gold].\nGain [energy:1] at the start of each turn.",
+        "vars":  {
+                     "Energy":  1,
+                     "StrengthPower":  2,
+                     "Strength":  2
+                 },
+        "upgrade":  {
+                        "strengthpower":  "-1"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "GLIMPSE_BEYOND",
+        "name":  "Glimpse Beyond",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "ALL players add 3 [gold]Souls[/gold] into their [gold]Draw Pile[/gold].",
+        "vars":  {
+                     "Cards":  3
+                 },
+        "upgrade":  {
+                        "cards":  "+1"
+                    },
+        "keywords":  [
+                         "Exhaust"
+                     ],
+        "target":  "AllAllies"
+    },
+    {
+        "id":  "GRAVE_WARDEN",
+        "name":  "Grave Warden",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Common",
+        "damage":  null,
+        "block":  8,
+        "description":  "Gain 8 [gold]Block[/gold].\nAdd a [gold]Soul[/gold] into your [gold]Draw Pile[/gold].",
+        "vars":  {
+                     "Block":  8,
+                     "Cards":  1
+                 },
+        "upgrade":  {
+                        "block":  "+2"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "GRAVEBLAST",
+        "name":  "Graveblast",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Common",
+        "damage":  4,
+        "block":  null,
+        "description":  "Deal 4 damage.\nPut a card from your [gold]Discard Pile[/gold] into your [gold]Hand[/gold].",
+        "vars":  {
+                     "Damage":  4
+                 },
+        "upgrade":  {
+                        "damage":  "+2",
+                        "remove_exhaust":  true
+                    },
+        "keywords":  [
+                         "Exhaust"
+                     ],
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "HANG",
+        "name":  "Hang",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Rare",
+        "damage":  10,
+        "block":  null,
+        "description":  "Deal 10 damage.\nDouble the damage ALL Hang cards deal to this enemy.",
+        "vars":  {
+                     "Damage":  10
+                 },
+        "upgrade":  {
+                        "damage":  "+3"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "HAUNT",
+        "name":  "Haunt",
+        "cost":  1,
+        "type":  "Power",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "Whenever you play a [gold]Soul[/gold], a random enemy loses 6 HP.",
+        "vars":  {
+                     "HpLoss":  6
+                 },
+        "upgrade":  {
+                        "hploss":  "+2"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "HIGH_FIVE",
+        "name":  "High Five",
+        "cost":  2,
+        "type":  "Attack",
+        "rarity":  "Uncommon",
+        "damage":  11,
+        "block":  null,
+        "description":  "[gold]Osty[/gold] deals 11 damage\nand applies 2 [gold]Vulnerable[/gold]\nto ALL enemies.",
+        "vars":  {
+                     "OstyDamage":  11,
+                     "VulnerablePower":  2,
+                     "Vulnerable":  2,
+                     "Damage":  11
+                 },
+        "upgrade":  {
+                        "damage":  "+2",
+                        "ostydamage":  "+2",
+                        "vulnerable":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "AllEnemies"
+    },
+    {
+        "id":  "INVOKE",
+        "name":  "Invoke",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Common",
+        "damage":  null,
+        "block":  null,
+        "description":  "Next turn, [gold]Summon[/gold] 2 and gain [energy:2].",
+        "vars":  {
+                     "Summon":  2,
+                     "Energy":  2
+                 },
+        "upgrade":  {
+                        "summon":  "+1",
+                        "energy":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "LEGION_OF_BONE",
+        "name":  "Legion of Bone",
+        "cost":  2,
+        "type":  "Skill",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "ALL players [gold]Summon[/gold] 6.",
+        "vars":  {
+                     "Summon":  6
+                 },
+        "upgrade":  {
+                        "summon":  "+2"
+                    },
+        "keywords":  [
+                         "Exhaust"
+                     ],
+        "target":  "AllAllies"
+    },
+    {
+        "id":  "LETHALITY",
+        "name":  "Lethality",
+        "cost":  1,
+        "type":  "Power",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "The first Attack each turn deals 50% additional damage.",
+        "vars":  {
+                     "LethalityPower":  50,
+                     "Lethality":  50
+                 },
+        "upgrade":  {
+                        "lethalitypower":  "+25"
+                    },
+        "keywords":  [
+                         "Ethereal"
+                     ],
+        "target":  "Self"
+    },
+    {
+        "id":  "MELANCHOLY",
+        "name":  "Melancholy",
+        "cost":  3,
+        "type":  "Skill",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  13,
+        "description":  "Gain 13 [gold]Block[/gold].\nReduce this card\u0027s cost by [energy:1] whenever ANYONE dies.",
+        "vars":  {
+                     "Block":  13,
+                     "Energy":  1
+                 },
+        "upgrade":  {
+                        "block":  "+4"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "MISERY",
+        "name":  "Misery",
+        "cost":  0,
+        "type":  "Attack",
+        "rarity":  "Rare",
+        "damage":  7,
+        "block":  null,
+        "description":  "Deal 7 damage.\nApply any debuffs on the enemy to ALL other enemies.",
+        "vars":  {
+                     "Damage":  7
+                 },
+        "upgrade":  {
+                        "damage":  "+2",
+                        "add_retain":  true
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "NECRO_MASTERY",
+        "name":  "Necro Mastery",
+        "cost":  2,
+        "type":  "Power",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "[gold]Summon[/gold] 5.\nWhenever [gold]Osty[/gold] loses HP,\nALL enemies lose that much HP as well.",
+        "vars":  {
+                     "Summon":  5
+                 },
+        "upgrade":  {
+                        "summon":  "+3"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "NEGATIVE_PULSE",
+        "name":  "Negative Pulse",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Common",
+        "damage":  null,
+        "block":  5,
+        "description":  "Gain 5 [gold]Block[/gold].\nApply 7 [gold]Doom[/gold] to ALL enemies.",
+        "vars":  {
+                     "Block":  5,
+                     "DoomPower":  7,
+                     "Doom":  7
+                 },
+        "upgrade":  {
+                        "block":  "+1",
+                        "doom":  "+4"
+                    },
+        "keywords":  null,
+        "target":  "AllEnemies"
+    },
+    {
+        "id":  "NEUROSURGE",
+        "name":  "Neurosurge",
+        "cost":  0,
+        "type":  "Power",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "Gain [energy:3].\nDraw 2 cards.\nAt the start of your turn, apply 3 [gold]Doom[/gold] to yourself.",
+        "vars":  {
+                     "Energy":  3,
+                     "Cards":  2,
+                     "NeurosurgePower":  3,
+                     "Neurosurge":  3
+                 },
+        "upgrade":  {
+                        "energy":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "NO_ESCAPE",
+        "name":  "No Escape",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "Apply 10 [gold]Doom[/gold], plus an additional 5 [gold]Doom[/gold] for every 10 [gold]Doom[/gold] already on this enemy.[IsTargeting]",
+        "vars":  {
+                     "DoomThreshold":  10,
+                     "CalculationBase":  10,
+                     "CalculationExtra":  5
+                 },
+        "upgrade":  {
+                        "calculationbase":  "+5"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "OBLIVION",
+        "name":  "Oblivion",
+        "cost":  0,
+        "type":  "Skill",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "Whenever you play a card this turn, apply 3 [gold]Doom[/gold] to the enemy.",
+        "vars":  {
+                     "DoomPower":  3,
+                     "Doom":  3
+                 },
+        "upgrade":  {
+                        "doom":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "PAGESTORM",
+        "name":  "Pagestorm",
+        "cost":  1,
+        "type":  "Power",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "Whenever you draw an [gold]Ethereal[/gold] card, draw 1 card.",
+        "vars":  {
+                     "Cards":  1
+                 },
+        "upgrade":  {
+                        "cost":  0
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "PARSE",
+        "name":  "Parse",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "Draw 3 cards.",
+        "vars":  {
+                     "Cards":  3
+                 },
+        "upgrade":  {
+                        "cards":  "+1"
+                    },
+        "keywords":  [
+                         "Ethereal"
+                     ],
+        "target":  "Self"
+    },
+    {
+        "id":  "POKE",
+        "name":  "Poke",
+        "cost":  0,
+        "type":  "Attack",
+        "rarity":  "Common",
+        "damage":  6,
+        "block":  null,
+        "description":  "[gold]Osty[/gold] deals 6 damage.",
+        "vars":  {
+                     "OstyDamage":  6,
+                     "Damage":  6
+                 },
+        "upgrade":  {
+                        "damage":  "+3",
+                        "ostydamage":  "+3"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "PROTECTOR",
+        "name":  "Protector",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Ancient",
+        "damage":  null,
+        "block":  null,
+        "description":  "[gold]Osty[/gold] deals 11 damage.\nDeals additional damage equal to [gold]Osty\u0027s[/gold] [gold]Max HP[/gold].",
+        "vars":  {
+                     "CalculationBase":  10,
+                     "ExtraDamage":  1,
+                     "CalculatedDamage":  11
+                 },
+        "upgrade":  {
+                        "cost":  0,
+                        "calculationbase":  "+5"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "PULL_AGGRO",
+        "name":  "Pull Aggro",
+        "cost":  2,
+        "type":  "Skill",
+        "rarity":  "Common",
+        "damage":  null,
+        "block":  7,
+        "description":  "[gold]Summon[/gold] 4.\nGain 7 [gold]Block[/gold].",
+        "vars":  {
+                     "Summon":  4,
+                     "Block":  7
+                 },
+        "upgrade":  {
+                        "block":  "+2",
+                        "summon":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "PULL_FROM_BELOW",
+        "name":  "Pull from Below",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Uncommon",
+        "damage":  5,
+        "block":  null,
+        "description":  "Deal 5 damage for each [gold]Ethereal[/gold] card played this combat.[InCombat]",
+        "vars":  {
+                     "Damage":  5,
+                     "CalculationBase":  0,
+                     "CalculationExtra":  1
+                 },
+        "upgrade":  {
+                        "damage":  "+2"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "PUTREFY",
+        "name":  "Putrefy",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "Apply 2 [gold]Weak[/gold].\nApply 2 [gold]Vulnerable[/gold].",
+        "vars":  {
+                     "Power":  2
+                 },
+        "upgrade":  {
+                        "power":  "+1"
+                    },
+        "keywords":  [
+                         "Exhaust"
+                     ],
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "RATTLE",
+        "name":  "Rattle",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Uncommon",
+        "damage":  7,
+        "block":  null,
+        "description":  "[gold]Osty[/gold] deals 7 damage.\nHits an additional time for each other time he has attacked this turn.[InCombat]",
+        "vars":  {
+                     "OstyDamage":  7,
+                     "CalculationBase":  0,
+                     "CalculationExtra":  1,
+                     "Damage":  7
+                 },
+        "upgrade":  {
+                        "damage":  "+2",
+                        "ostydamage":  "+2"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "REANIMATE",
+        "name":  "Reanimate",
+        "cost":  3,
+        "type":  "Skill",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "[gold]Summon[/gold] 20.",
+        "vars":  {
+                     "Summon":  20
+                 },
+        "upgrade":  {
+                        "summon":  "+5"
+                    },
+        "keywords":  [
+                         "Exhaust"
+                     ],
+        "target":  "Self"
+    },
+    {
+        "id":  "REAP",
+        "name":  "Reap",
+        "cost":  3,
+        "type":  "Attack",
+        "rarity":  "Common",
+        "damage":  27,
+        "block":  null,
+        "description":  "Deal 27 damage.",
+        "vars":  {
+                     "Damage":  27
+                 },
+        "upgrade":  {
+                        "damage":  "+6"
+                    },
+        "keywords":  [
+                         "Retain"
+                     ],
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "REAPER_FORM",
+        "name":  "Reaper Form",
+        "cost":  3,
+        "type":  "Power",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "Whenever Attacks deal damage, they also apply that much [gold]Doom[/gold].",
+        "vars":  null,
+        "upgrade":  {
+                        "add_retain":  true
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "REAVE",
+        "name":  "Reave",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Common",
+        "damage":  9,
+        "block":  null,
+        "description":  "Deal 9 damage.\nAdd a [gold]Soul[/gold] into your [gold]Draw Pile[/gold].",
+        "vars":  {
+                     "Damage":  9,
+                     "Cards":  1
+                 },
+        "upgrade":  {
+                        "damage":  "+2"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "RIGHT_HAND_HAND",
+        "name":  "Right Hand Hand",
+        "cost":  0,
+        "type":  "Attack",
+        "rarity":  "Uncommon",
+        "damage":  4,
+        "block":  null,
+        "description":  "[gold]Osty[/gold] deals 4 damage.\nWhenever you play a card that costs [energy:2] or more, return this to your [gold]Hand[/gold] from the [gold]Discard Pile[/gold].",
+        "vars":  {
+                     "OstyDamage":  4,
+                     "Energy":  2,
+                     "Damage":  4
+                 },
+        "upgrade":  {
+                        "damage":  "+2",
+                        "ostydamage":  "+2"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "SACRIFICE",
+        "name":  "Sacrifice",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "If [gold]Osty[/gold] is alive, he dies and you gain [gold]Block[/gold] equal to double his Max HP.",
+        "vars":  null,
+        "upgrade":  {
+                        "cost":  0
+                    },
+        "keywords":  [
+                         "Retain"
+                     ],
+        "target":  "Self"
+    },
+    {
+        "id":  "SCOURGE",
+        "name":  "Scourge",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Common",
+        "damage":  null,
+        "block":  null,
+        "description":  "Apply 13 [gold]Doom[/gold].\nDraw 1 card.",
+        "vars":  {
+                     "Cards":  1,
+                     "DoomPower":  13,
+                     "Doom":  13
+                 },
+        "upgrade":  {
+                        "doom":  "+3",
+                        "cards":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "SCULPTING_STRIKE",
+        "name":  "Sculpting Strike",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Common",
+        "damage":  8,
+        "block":  null,
+        "description":  "Deal 8 damage.\nAdd [gold]Ethereal[/gold] to a card in your [gold]Hand[/gold].",
+        "vars":  {
+                     "Damage":  8
+                 },
+        "upgrade":  {
+                        "damage":  "+3"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "SEANCE",
+        "name":  "Seance",
+        "cost":  0,
+        "type":  "Skill",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "Transform a card in your [gold]Draw Pile[/gold] into [gold]Soul[/gold].",
+        "vars":  {
+                     "Cards":  1
+                 },
+        "upgrade":  null,
+        "keywords":  [
+                         "Ethereal"
+                     ],
+        "target":  "Self"
+    },
+    {
+        "id":  "SENTRY_MODE",
+        "name":  "Sentry Mode",
+        "cost":  2,
+        "type":  "Power",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "At the start of your turn, add 1 [gold]Sweeping Gaze[/gold] into your [gold]Hand[/gold].",
+        "vars":  {
+                     "SentryModePower":  1,
+                     "SentryMode":  1
+                 },
+        "upgrade":  {
+                        "cost":  1
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "SEVERANCE",
+        "name":  "Severance",
+        "cost":  2,
+        "type":  "Attack",
+        "rarity":  "Uncommon",
+        "damage":  13,
+        "block":  null,
+        "description":  "Deal 13 damage.\nAdd a [gold]Soul[/gold] into your [gold]Draw Pile[/gold], [gold]Hand[/gold], and [gold]Discard Pile[/gold].",
+        "vars":  {
+                     "Damage":  13
+                 },
+        "upgrade":  {
+                        "damage":  "+5"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "SHARED_FATE",
+        "name":  "Shared Fate",
+        "cost":  0,
+        "type":  "Skill",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "Lose 2 [gold]Strength[/gold].\nEnemy loses 2 [gold]Strength[/gold].",
+        "vars":  {
+                     "EnemyStrengthLoss":  2,
+                     "PlayerStrengthLoss":  2
+                 },
+        "upgrade":  {
+                        "enemystrengthloss":  "+1"
+                    },
+        "keywords":  [
+                         "Exhaust"
+                     ],
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "SHROUD",
+        "name":  "Shroud",
+        "cost":  1,
+        "type":  "Power",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  2,
+        "description":  "Whenever you apply [gold]Doom[/gold], gain 2 [gold]Block[/gold].",
+        "vars":  {
+                     "Block":  2
+                 },
+        "upgrade":  {
+                        "block":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "SIC_EM",
+        "name":  "Sic \u0027Em",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Uncommon",
+        "damage":  5,
+        "block":  null,
+        "description":  "[gold]Osty[/gold] deals 5 damage.\nWhenever [gold]Osty[/gold] hits this enemy this turn, [gold]Summon[/gold] 2.",
+        "vars":  {
+                     "OstyDamage":  5,
+                     "SicEmPower":  2,
+                     "SicEm":  2,
+                     "Damage":  5
+                 },
+        "upgrade":  {
+                        "damage":  "+1",
+                        "ostydamage":  "+1",
+                        "sicempower":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "SLEIGHT_OF_FLESH",
+        "name":  "Sleight of Flesh",
+        "cost":  2,
+        "type":  "Power",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "Whenever you apply a debuff to an enemy, they take 9 damage.",
+        "vars":  {
+                     "SleightOfFleshPower":  9,
+                     "SleightOfFlesh":  9
+                 },
+        "upgrade":  {
+                        "sleightoffleshpower":  "+4"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "SNAP",
+        "name":  "Snap",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Common",
+        "damage":  7,
+        "block":  null,
+        "description":  "[gold]Osty[/gold] deals 7 damage.\nAdd [gold]Retain[/gold] to a card in your [gold]Hand[/gold].",
+        "vars":  {
+                     "OstyDamage":  7,
+                     "Damage":  7
+                 },
+        "upgrade":  {
+                        "damage":  "+3",
+                        "ostydamage":  "+3"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "SOUL_STORM",
+        "name":  "Soul Storm",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "Deal 11 damage.\nDeals 2 additional damage for each [gold]Soul[/gold] in your [gold]Exhaust Pile[/gold].",
+        "vars":  {
+                     "CalculationBase":  9,
+                     "ExtraDamage":  2,
+                     "CalculatedDamage":  11
+                 },
+        "upgrade":  {
+                        "damage":  "+1",
+                        "extradamage":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "SOW",
+        "name":  "Sow",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Common",
+        "damage":  8,
+        "block":  null,
+        "description":  "Deal 8 damage to ALL enemies.",
+        "vars":  {
+                     "Damage":  8
+                 },
+        "upgrade":  {
+                        "damage":  "+3"
+                    },
+        "keywords":  [
+                         "Retain"
+                     ],
+        "target":  "AllEnemies"
+    },
+    {
+        "id":  "SPIRIT_OF_ASH",
+        "name":  "Spirit of Ash",
+        "cost":  1,
+        "type":  "Power",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "Whenever you play an [gold]Ethereal[/gold] card, gain 4 [gold]Block[/gold].",
+        "vars":  {
+                     "BlockOnExhaust":  4
+                 },
+        "upgrade":  {
+                        "blockonexhaust":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "SPUR",
+        "name":  "Spur",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Uncommon",
+        "damage":  null,
+        "block":  null,
+        "description":  "[gold]Summon[/gold] 3.\n[gold]Osty[/gold] heals 5 HP.",
+        "vars":  {
+                     "Summon":  3,
+                     "Heal":  5
+                 },
+        "upgrade":  {
+                        "summon":  "+2",
+                        "heal":  "+2"
+                    },
+        "keywords":  [
+                         "Retain"
+                     ],
+        "target":  "Self"
+    },
+    {
+        "id":  "SQUEEZE",
+        "name":  "Squeeze",
+        "cost":  3,
+        "type":  "Attack",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "[gold]Osty[/gold] deals 30 damage.\nDeals 5 additional damage for ALL your other [gold]Osty[/gold] Attacks.",
+        "vars":  {
+                     "CalculationBase":  25,
+                     "ExtraDamage":  5,
+                     "CalculatedDamage":  30
+                 },
+        "upgrade":  {
+                        "damage":  "+1",
+                        "calculationbase":  "+5",
+                        "extradamage":  "+1"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "STRIKE_NECROBINDER",
+        "name":  "Strike",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Basic",
+        "damage":  6,
+        "block":  null,
+        "description":  "Deal 6 damage.",
+        "vars":  {
+                     "Damage":  6
+                 },
+        "upgrade":  {
+                        "damage":  "+3"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "THE_SCYTHE",
+        "name":  "The Scythe",
+        "cost":  2,
+        "type":  "Attack",
+        "rarity":  "Rare",
+        "damage":  13,
+        "block":  null,
+        "description":  "Deal 13 damage.\nPermanently increase this card\u0027s damage by 3.",
+        "vars":  {
+                     "Increase":  3,
+                     "Damage":  13,
+                     "baseDamage":  13
+                 },
+        "upgrade":  {
+                        "increase":  "+1"
+                    },
+        "keywords":  [
+                         "Exhaust"
+                     ],
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "TIMES_UP",
+        "name":  "Time\u0027s Up",
+        "cost":  2,
+        "type":  "Attack",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "Deal damage equal to the enemy\u0027s [gold]Doom[/gold].[IsTargeting]",
+        "vars":  {
+                     "CalculationBase":  0,
+                     "ExtraDamage":  1,
+                     "CalculatedDamage":  1
+                 },
+        "upgrade":  {
+                        "add_retain":  true
+                    },
+        "keywords":  [
+                         "Exhaust"
+                     ],
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "TRANSFIGURE",
+        "name":  "Transfigure",
+        "cost":  1,
+        "type":  "Skill",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  null,
+        "description":  "Add [gold]Replay[/gold] to a card in your [gold]Hand[/gold].\nIt costs an extra [energy:1].",
+        "vars":  {
+                     "Energy":  1
+                 },
+        "upgrade":  {
+                        "remove_exhaust":  true
+                    },
+        "keywords":  [
+                         "Exhaust"
+                     ],
+        "target":  "Self"
+    },
+    {
+        "id":  "UNDEATH",
+        "name":  "Undeath",
+        "cost":  0,
+        "type":  "Skill",
+        "rarity":  "Rare",
+        "damage":  null,
+        "block":  7,
+        "description":  "Gain 7 [gold]Block[/gold].\nAdd a copy of this card into your [gold]Discard Pile[/gold].",
+        "vars":  {
+                     "Block":  7
+                 },
+        "upgrade":  {
+                        "block":  "+2"
+                    },
+        "keywords":  null,
+        "target":  "Self"
+    },
+    {
+        "id":  "UNLEASH",
+        "name":  "Unleash",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Basic",
+        "damage":  null,
+        "block":  null,
+        "description":  "[gold]Osty[/gold] deals 7 damage.\nDeals additional damage equal to [gold]Osty\u0027s[/gold] current HP.",
+        "vars":  {
+                     "CalculationBase":  6,
+                     "ExtraDamage":  1,
+                     "CalculatedDamage":  7
+                 },
+        "upgrade":  {
+                        "calculationbase":  "+3"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "VEILPIERCER",
+        "name":  "Veilpiercer",
+        "cost":  1,
+        "type":  "Attack",
+        "rarity":  "Uncommon",
+        "damage":  10,
+        "block":  null,
+        "description":  "Deal 10 damage.\nThe next [gold]Ethereal[/gold] card you play costs 0 [energy:1].",
+        "vars":  {
+                     "Damage":  10
+                 },
+        "upgrade":  {
+                        "damage":  "+3"
+                    },
+        "keywords":  null,
+        "target":  "AnyEnemy"
+    },
+    {
+        "id":  "WISP",
+        "name":  "Wisp",
+        "cost":  0,
+        "type":  "Skill",
+        "rarity":  "Common",
+        "damage":  null,
+        "block":  null,
+        "description":  "Gain [energy:1].",
+        "vars":  {
+                     "Energy":  1
+                 },
+        "upgrade":  {
+                        "add_retain":  true
+                    },
+        "keywords":  [
+                         "Exhaust"
+                     ],
+        "target":  "Self"
+    }
+]

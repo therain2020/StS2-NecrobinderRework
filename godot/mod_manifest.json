@@ -1,0 +1,14 @@
+﻿{
+    "id":  "NecrobinderRework",
+    "pck_name":  "NecrobinderRework",
+    "has_pck":  true,
+    "version":  "0.2.0",
+    "affects_gameplay":  true,
+    "description":  "Necrobinder 平衡重做。流派交织是核心特色。",
+    "author":  "",
+    "has_dll":  true,
+    "name":  "Necrobinder Rework",
+    "dependencies":  [
+                         "BaseLib"
+                     ]
+}

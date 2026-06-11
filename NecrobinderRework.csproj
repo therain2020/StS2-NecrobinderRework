@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <AssemblyName>NecrobinderRework</AssemblyName>
+    <RootNamespace>NecrobinderRework</RootNamespace>
+    <LangVersion>12</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <!-- 娓告垙璺緞 -->
+  <PropertyGroup>
+    <Sts2Dir>D:\STAEAM\steamapps\common\Slay the Spire 2</Sts2Dir>
+    <Sts2DataDir>$(Sts2Dir)\data_sts2_windows_x86_64</Sts2DataDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Alchyr.Sts2.BaseLib" Version="3.1.7" />
+    <Reference Include="sts2">
+      <HintPath>$(Sts2DataDir)\sts2.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(Sts2DataDir)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="GodotSharp">
+      <HintPath>$(Sts2DataDir)\GodotSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <!-- 鏋勫缓鍚庤嚜鍔ㄩ儴缃插埌娓告垙 Mods 鐩綍 -->
+  <Target Name="DeployToGame" AfterTargets="Build">
+    <Message Text="[NecrobinderRework] Deploying..." Importance="high" />
+    <MakeDir Directories="$(Sts2Dir)\Mods\$(AssemblyName)" />
+    <MakeDir Directories="$(Sts2Dir)\Mods\BaseLib" />
+    <Copy SourceFiles="$(TargetPath)"
+          DestinationFolder="$(Sts2Dir)\Mods\$(AssemblyName)"
+          SkipUnchangedFiles="true" />
+    <Copy SourceFiles="$(ProjectDir)godot\mod_manifest.json"
+          DestinationFolder="$(Sts2Dir)\Mods\$(AssemblyName)"
+          SkipUnchangedFiles="true" />
+    <Message Text="[NecrobinderRework] Deployed" Importance="high" />
+  </Target>
+
+</Project>

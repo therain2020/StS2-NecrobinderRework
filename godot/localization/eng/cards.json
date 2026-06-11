@@ -1,0 +1,10 @@
+{
+  "BODYGUARD_REWORK.title": "Bodyguard",
+  "BODYGUARD_REWORK.description": "[gold]Summon[/gold] 7. NL Draw 1 card.",
+  "NEGATIVE_PULSE_REWORK.title": "Negative Pulse",
+  "NEGATIVE_PULSE_REWORK.description": "Gain 7 [gold]Block[/gold]. NL Apply 7 [gold]Doom[/gold] to ALL enemies. NL [gold]Summon[/gold] 1.",
+  "CAPTURE_SPIRIT_REWORK.title": "Capture Spirit",
+  "CAPTURE_SPIRIT_REWORK.description": "Enemy loses 3 HP. NL Add 3 [gold]Souls[/gold] into your [gold]Draw Pile[/gold]. NL [gold]Summon[/gold] 2.",
+  "TIMES_UP_REWORK.title": "Time's Up",
+  "TIMES_UP_REWORK.description": "Deal damage equal to the enemy's [gold]Doom[/gold]. NL [gold]Exhaust[/gold]. NL [Upgraded] Kill if [gold]Doom[/gold] >= HP."
+}
